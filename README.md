@@ -1,8 +1,5 @@
 Michael Efseaff
-2343166
-Assignment 7
-CPSC-350-01
-German
+
 
 
 
@@ -14,12 +11,23 @@ stackoverflow.com
 geeksforgeeks.org
 zybooks.com
 
-deviations and design choices:
+purpose:
 
-The way the command line parameters works for mine is “create 10 filename” and “sort filename” because the program specs didnt really make any sense in that regard so I just went with what I thought made sense also you cannot put more than 500k doubles in my program as per Prof. Germans instructions on slack (and it was giving me seg faults idk why though)
+check the time multiple different sorting algorithms take to sort a file of doubles
 
+Compile:
 
-have a great summer :)
+make all
+
+run:
+
+./main.out create <number of doubles up to 500k> <name of file with doubles>
+./main.out sort <file name with doubles>
+  
+output:
+
+time it took for each sorting algorithm to sort the doubles
+
 
 
 
