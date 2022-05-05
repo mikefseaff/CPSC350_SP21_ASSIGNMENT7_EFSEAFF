@@ -22,6 +22,7 @@ make all
 run:
 
 ./main.out create <number of doubles up to 500k> <name of file with doubles>
+  
 ./main.out sort <file name with doubles>
   
 output:
